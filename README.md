@@ -2,18 +2,18 @@
 
 PROJECT DESCRIPTION:
 
-Healthcare sector uses centralized systems to store medical records of their patients, leading to issues like data leaks and cyber-attacks. It is a challenge to access patients’ scattered data and is time consuming. Blockchain Technology helps to build decentralized systems, which will provide a secure, hassle-free, exchangeable and reusable storage system. 
+The Healthcare sector uses centralized systems to store medical records of their patients, leading to issues like data leaks and cyber-attacks. It is a challenge to access patients’ scattered data and is time-consuming. Blockchain technology helps to build decentralized systems, which will provide a secure, hassle-free, exchangeable, and reusable storage system. 
 
 WORKFLOW:       
-  •	One can login either as a doctor or as a patient. <br/>
+  •	One can log in either as a doctor or as a patient. <br/>
   •	Patient will upload his/her medical files, which will then be stored on the IPFS.<br/>
-  •	Doctor will request for the patient’s medical record. <br/>
-  •	After the patient grants the access, the doctor will be able to retrieve the contents located at the patient’s hash. <br/>
+  •	Doctor will request the patient’s medical record. <br/>
+  •	After the patient grants access, the doctor will be able to retrieve the contents located at the patient’s hash. <br/>
   •	The doctor will then update the patient’s record, if necessary. <br/>
 
-  NOTE: Code has been tested only with ganache, not with any testnet.
+  NOTE: Code has been tested only with ganache, not with any testnet. <br/>
 
-REQUIREMENTS:
+REQUIREMENTS: <br/>
   •	Nodejs: v14.4.0 <br/>
   •	Npm: v6.14.5 <br/>
   •	solc - v0.5.0  <br/>
@@ -22,12 +22,10 @@ REQUIREMENTS:
   •	Truffle  <br/>
   •	Metamask Chrome extension <br/>
 
-STEPS TO RUN:
+STEPS TO RUN: <br/>
   •	Clone the repository <br/>
   •	Run npm install in the command prompt <br/>
   •	Start Ganache <br/>
   •	Connect Metamask to the Ganache Network and import accounts <br/>
-  •	Run truffle migrate \
-  •	Run npm run start \
-
-
+  •	Run truffle migrate <br/>
+  •	Run npm run start <br/>
