@@ -137,7 +137,7 @@ export class SecondFile extends Component {
                   <input type='submit' id="finalbtn" className="btnSubmit" onClick={LoginForm.continue} />
                   <br/><br/>
                   <div  id="afterSub" style={{visibility: this.state.visibility }}>
-                        Submitting to IPFS...Please Wait
+                        Submitting to IPFS....Please Wait For A While
                     </div>
 
                 </form>
